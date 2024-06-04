@@ -1,0 +1,88 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body, html {
+  height: 100%;
+}
+
+nav {
+  position: absolute;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  line-height: 140px;
+}
+
+nav a {
+  color: #fff;
+  font-family: 'Gloria Hallelujah', cursive;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 15px;
+  padding: 12px 12px;
+}
+
+nav a:hover {
+  background: black;
+}
+
+.gorsel {
+  height: 100%;
+  background-color: lightblue;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.bant {
+  height: 50%;
+  background-color: lightgreen;
+}
+
+#gorsel1 {
+  background-image: url("1.jpg");
+}
+
+#gorsel2 {
+  background-image: url("2.jpg");
+}
+
+#gorsel3 {
+  background-image: url("3.jpg");
+}
+
+.form-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container input[type="email"],
+.form-container input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+}
+
+.form-container input[type="submit"] {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+  background: #45a049;
+}
